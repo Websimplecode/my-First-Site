@@ -10,7 +10,7 @@ html {
     font-size: 15px;
 }
 
-body {
+body, pre {
     margin: 0;
 
     font-family: 'Montserrat', sans-serif;
