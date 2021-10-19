@@ -40,6 +40,7 @@ p {
 }
 
 
+
 /* Main */
 
 .page {
@@ -188,7 +189,15 @@ progress::-moz-progress-bar {
     flex: 0 0 40%;
     max-width: 40%;
     margin-top: 40px;
+    transform: translateX(-150%);
+  animation: ani 1s forwards;
 }
+
+@keyframes ani {
+  0% {transform: translateX(-150%);}
+  100% {transform: translateY(0);}
+}
+
 
 .skills .skill-item {
     -ms-flex: 0 0 100%;
